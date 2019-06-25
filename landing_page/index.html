@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gibson sales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fv-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="main-header" id="header">
+
+        <div class="main-header__logo">
+            <a href="#mai-container"><img src="images/Gibson_logo.jpg" alt="Gibson" id="header-img"></a>
+        </div>
+
+
+        <nav class="main-header__nav" id="nav-bar">
+
+            <a href="#introduction" class="main-header__nav__link nav-link">Introduction</a>
+            <a href="#models" class="main-header__nav__link nav-link">Models</a>
+            <a href="#about_us" class="main-header__nav__link nav-link">About us</a>
+
+        </nav>
+
+    </header>
+
+    <div id="main-container">
+
+        <main>
+
+            <div class="image-1">
+
+                <img src="images/gibson_guitars2.png" alt="Models of Gibson guitars">
+
+            </div>
+
+            <section class="main_introduction">
+
+                <div class="container">
+
+                    <div id="introduction" class="nav-target"></div>
+                    <h1>Gibson guitars</h1>
+                    <p>Gibson guitars are much more than musical instruments. Since the beginnings of rock n' roll this guitars have been walking along with the best performers of our times (Chuck Berry, Eric Clapton, Bob Dylan, The Edge, Dave Grohl, Jimmy Hendrix, Eric Johnson, Mike Oldfield, Carlos Santana, Slash, Eddie Van Halen...  ) They all loved the power, the versatility, the elegant but wild looks of the Gibson's.</p>
+
+                    <p>SG, Flying-V and of course the legendary Les Paul. With which model are you going to climb to the top of the Rock N' Roll history?</p>
+
+                </div>
+
+            <section class="main__models">
+
+                <div class="container">
+
+                    <div id="models" class="nav-target"></div>
+                    <h1 class="section-title">Models</h1>
+
+                    <div class="main__pricing__flex">
+
+                        <article class="guitar-cards">
+
+                            <img src="images/gibson-sg.jpg" alt="Gibson SG" width="230" height="320">
+                            <h1 class="model-card__title">Gibson SG</h1>
+                            <h2 class="model-card__price">799$</h2>
+                            <ul class="model-card__features">
+                                <li class="model-card__feature">Made in USA</li>
+                                <li class="model-card__feature">2014</li>
+                                <li class="model-card__feature">Black & Gold</li>
+                            </ul>
+
+                            <button class="model-card__button">Buy</button>
+
+                        </article>
+
+                        <article class="guitar-cards">
+
+                            <img src="images/gibson-flying-v.jpg" alt="Gibson Flying V"width="230" height="320">
+                            <h1 class="model-card__title">Gibson Fying-V</h1>
+                            <h2 class="model-card__price">1100$</h2>
+                            <ul class="model-card__features">
+                                <li class="model-card__feature">Made in USA</li>
+                                <li class="model-card__feature">2017</li>
+                                <li class="model-card__feature">Orange & White</li>
+                            </ul>
+
+                            <button class="model-card__button">Buy</button>
+
+                        </article>
+
+
+                        <article class="guitar-cards">
+
+                            <img src="images/gibson-les-paul.jpg" alt="Gibson Les Paul" width="230" height="320">
+                            <h1 class="model-card__title">Gibson Les Paul</h1>
+                            <h2 class="model-card__price">1900$</h2>
+                            <ul class="model-card__features">
+                                <li class="model-card__feature">Made in USA</li>
+                                <li class="model-card__feature">2019</li>
+                                <li class="model-card__feature">Honey Burst</li>
+                            </ul>
+
+                            <button class="model-card__button">Buy</button>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main__about_us">
+                <div id="about_us" class="nav-target"></div>
+                <div class="container">
+
+                    <div class="process__video">
+                        <iframe width="1100" height="550" src="https://www.youtube.com/embed/LfPciLK5CBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+
+                    <h1>About us</h1>
+
+                    <div class="main__about_us__flex">
+
+                        <p>If you have any doubts, suggestions or want more information or be among the firsts to know our promotions, please do not hesitate to contact us.</p>
+
+                        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+
+                            <label for="email">Enter your email:</label>
+                            <input type="email" id="email" name="email" placeholder="someone@example.com" required>
+                            <input type="submit" id="submit" value="Subscribe">
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="main-footer">
+
+            <section class="main-footer__info">
+
+                <div class="container">
+
+                    <div class="main-footer__info__flex">
+
+                        <div class="main-footer__bio">
+                            <h1>The company</h1>
+                            <p>Gibson sales is a fictional branch of Gibson trademark, created for the purpose of completing a challenge of FreeCodeCamp</p>
+
+                        </div>
+                        <nav>
+                            <ul class="main-footer__list-items">
+
+                                <li class="main-footer__list-item"><a href="">Contact Us</a></li>
+                                <li class="main-footer__list-item"><a href="">Trademarks</a></li>
+                                <li class="main-footer__list-item"><a href="">Privacy</a></li>
+
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="main-footer__copyright">
+                <p>© 2019 Gibson Sales SL</p>
+            </section>
+
+        </footer>
+
+    </div>
+
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+</body>
+
+</html>
+
+
+
+
+
